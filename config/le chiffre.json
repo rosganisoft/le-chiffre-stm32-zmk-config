@@ -16,7 +16,7 @@
       "zephyr,flash": "&flash0",
       "zephyr,console": "&cdc_acm_uart",
       "zmk,kscan": "&kscan",
-      "zmk,matrix_transform": "&transform"
+      "zmk,matrix_transform": "&transform_with_encoder"
     },
     "nodes": {
       "transform": {
@@ -92,13 +92,28 @@
         "a-gpios": "<&gpiob 4 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>",
         "b-gpios": "<&gpiob 5 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>",
         "steps": 30,
-        "status": "disabled"
+        "status": "okay"
       },
       "sensors": {
         "compatible": "zmk,keymap-sensors",
-        "status": "disabled",
+        "status": "okay",
         "sensors": "<&encoder>",
         "triggers-per-rotation": 15
+      }
+    }
+  },
+  "keymap": {
+    "compatible": "zmk,keymap",
+    "layers": {
+      "default_layer": {
+        "layer_index": 0,
+        "display_name": "Default",
+        "sensor-bindings": "<&inc_dec_kp C_VOL_UP C_VOL_DN>"
+      },
+      "lower_layer": {
+        "layer_index": 1,
+        "display_name": "Lower",
+        "sensor-bindings": "<&inc_dec_kp PG_UP PG_DN>"
       }
     }
   },
