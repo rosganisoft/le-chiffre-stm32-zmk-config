@@ -132,14 +132,14 @@
 
         raise_layer {
             bindings = <
-&trans  &trans  &trans  &trans  &trans    &trans       &trans    &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans    &trans       &trans    &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans    &trans       &kp HOME  &trans  &trans  &trans
-                        &trans  &trans    &lt 3 SPACE  &trans
+&kp NUMBER_1  &kp NUMBER_2  &trans  &trans  &trans    &trans       &trans    &trans  &trans  &trans
+&trans        &trans        &trans  &trans  &trans    &trans       &trans    &trans  &trans  &trans
+&trans        &trans        &trans  &trans  &trans    &trans       &kp HOME  &trans  &trans  &trans
+                                    &trans  &trans    &lt 3 SPACE  &trans
             >;
         };
 
-        num_layer {
+        symbol {
             bindings = <
 &kp LBKT   &kp N7  &kp N8  &kp N9  &kp RBKT     &trans  &trans  &trans  &trans  &trans
 &kp SEMI   &kp N4  &kp N5  &kp N6  &kp EQUAL    &trans  &trans  &trans  &trans  &trans
