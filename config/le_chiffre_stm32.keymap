@@ -141,10 +141,10 @@
 
         symbol {
             bindings = <
-&kp LS(N1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp LS(NUMBER_5)    &kp RS(NUMBER_6)  &kp RS(NUMBER_7)  &kp RS(NUMBER_8)  &kp RS(NUMBER_9)  &kp RS(NUMBER_0)
-&trans      &trans            &trans            &trans            &trans              &trans            &trans            &trans            &trans            &trans
-&trans      &trans            &trans            &trans            &trans              &trans            &trans            &trans            &trans            &trans
-                                                &mo 4             &trans              &trans            &trans
+&kp EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT    &kp CARET       &kp AMPERSAND  &kp ASTERISK      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&trans           &trans       &trans    &trans      &trans         &kp MINUS       &kp EQUAL      &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &kp BACKSLASH
+&trans           &trans       &trans    &trans      &trans         &kp UNDERSCORE  &kp PLUS       &kp LEFT_BRACE    &kp RIGHT_BRACE       &kp PIPE
+                                        &mo 4       &trans         &trans          &trans
             >;
         };
 
