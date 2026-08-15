@@ -144,7 +144,7 @@
 &kp LS(N1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp LS(NUMBER_5)    &kp RS(NUMBER_6)  &kp RS(NUMBER_7)  &kp RS(NUMBER_8)  &kp RS(NUMBER_9)  &kp RS(NUMBER_0)
 &trans      &trans            &trans            &trans            &trans              &trans            &trans            &trans            &trans            &trans
 &trans      &trans            &trans            &trans            &trans              &trans            &trans            &trans            &trans            &trans
-                                                &trans            &trans              &trans            &trans
+                                                &mo 4             &trans              &trans            &trans
             >;
         };
 
